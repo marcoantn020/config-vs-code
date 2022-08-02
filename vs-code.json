@@ -1,0 +1,78 @@
+{
+    // "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.letterSpacing": 0,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "workbench.tree.indent": 15,
+    // material icons folders
+    "material-icon-theme.folders.associations": {
+        "usecases": "job",
+        "usecase": "job",
+        "protocols": "server",
+        "core": "core",
+        "mongodb": "database",
+        "activerecord": "scala",
+        "infra": "scala",
+        "entity": "class",
+        "entities": "class",
+        "repository": "server",
+        "repositories": "server",
+        "adapter": "Core",
+        "main": "Core",
+        "domain": "node",
+        "presentation": "quasar",
+        "databaseMySql": "database",
+        "databaseSqLite": "database",
+        "traits": "webpack",
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Tests,tests}/**",
+        "**/.history/**",
+        "**/vendor/**/vendor/**",
+        "**/__pycache__/**"     
+    ],
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "intelephense.references.exclude": [
+        "**/vendor/**",
+        "**/__pycache__/**"
+    ],
+    "explorer.compactFolders": false,
+    "intelephense.rename.exclude": [
+        "**/vendor/**",
+        "**/__pycache__/**"
+    ],
+    "dart.analysisExcludedFolders": [
+        "**/__pycache__/**"
+    ],
+    "timeline.excludeSources": [
+        "**/__pycache__/**"
+    ],
+    "standard.autoFixOnSave": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "[prisma]" : {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "window.menuBarVisibility": "visible",
+    "workbench.sideBar.location": "right",
+    // "files.associations": {
+    //     "*.html": "twig"
+    // },
+    // "emmet.includeLanguages": {
+    //     "twig": "html"
+    // },
+}
